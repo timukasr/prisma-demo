@@ -1,0 +1,9 @@
+node_moduels
+.env
+.idea
+
+demo/prisma
+demo/package.json
+demo/tsconfig.json
+demo/yarn.lock
+demo/.gitignore
