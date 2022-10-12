@@ -14,7 +14,7 @@ To persist changes, use `prisma migrate`
 * Writes difference to file
 
 ```shell
-yarn prisma migrate dev --name init`
+yarn prisma migrate dev --name init
 ```
 
 Migrations are stored in [](prisma/migrations) folder.

@@ -3,6 +3,8 @@
 ## Setup
 
 * `yarn install`
+* create `.env` file with following content: `DATABASE_URL="..."`
+* Update database 
 ```shell
 yarn prisma db push
 ```

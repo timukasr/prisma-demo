@@ -11,6 +11,6 @@
     "rimraf": "3.0.2"
   },
   "scripts": {
-    "reset": "rimraf demo/node_modules demo/prisma demo/.env demo/.gitignore demo/package.json demo/tsconfig.json demo/yarn.lock"
+    "reset": "rimraf demo/prisma demo/.env demo/.gitignore"
   }
 }
