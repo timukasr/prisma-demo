@@ -36,6 +36,6 @@ async function main() {
   console.log(alice.posts[0].title);
 }
 
-main().catch(e => {
+main().catch((e) => {
   console.log("Error: ", e);
 });

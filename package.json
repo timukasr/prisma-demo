@@ -1,0 +1,16 @@
+{
+  "name": "prisma-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:timukasr/prisma-demo.git",
+  "author": "Timmu Ründal <timmu@stagnationlab.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "2.7.1",
+    "prettier-plugin-prisma": "4.4.0",
+    "rimraf": "3.0.2"
+  },
+  "scripts": {
+    "reset": "rimraf demo/node_modules demo/prisma demo/.env demo/.gitignore demo/package.json demo/tsconfig.json demo/yarn.lock"
+  }
+}
